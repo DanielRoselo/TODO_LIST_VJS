@@ -1,0 +1,101 @@
+body {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #222244;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.5);
+    width: 50%;
+    min-width: 400px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff4d4d;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5);
+}
+
+.custom-input {
+    background-color: #222244;
+    border: 2px solid #ff4d4d;
+    color: #fff;
+    padding: 12px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+
+.custom-input::placeholder {
+    color: #bbb;
+}
+
+.custom-btn {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #cc0000;
+}
+
+.list-group-item {
+    background-color: #222244;
+    color: white;
+    border: 1px solid #ff4d4d;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.list-group-item-success {
+    background-color: #114411 !important;
+    color: white !important;
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.edit-button, .done-button, .delete-button {
+    border: none;
+    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.edit-button {
+    background-color: #ffa500;
+}
+
+.edit-button:hover {
+    background-color: #cc8500;
+}
+
+.done-button {
+    background-color: #008000;
+}
+
+.done-button:hover {
+    background-color: #006600;
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
